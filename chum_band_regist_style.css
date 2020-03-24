@@ -1,0 +1,52 @@
+body { color: #000000; }
+p{ font-size: 15px; }
+
+#page { width: 980px;
+			margin: 0 auto; }
+
+/*見出し*/
+h1 { font-size: 30px;
+		color: #8B0000; }
+h2 { font-size: 20px;
+		border-style: solid;
+		border-width: 2px; }
+		
+h2.bandRegist { background-color: #DBFFFF;
+							 color: #191970;
+							 border-color: #7FFFFF; }
+							 
+h2.bandSearch { background-color: #EBFFDB;
+							 color: #006400; 
+							 border-color: #BFFF7F; }
+							 
+h2.bandEdit { background-color: #FFFFDB;
+							 color: #FF8C00;
+							 border-color: #FFFF7F; }
+							 
+h2.bandDelete { background-color: #FFB7B7;
+							 color: #FF0000;
+							 border-color: #FF7F7F; }
+							 
+/*表*/
+table { font-size: 14px;
+			border: 1px solid #000000;
+			border-collapse: collapse; }
+table th,
+table td { border: 1px solid #000000;
+				padding: 5px 10px; }
+table th { background-color: #EEEEEE; }
+table caption { text-align: left;
+						font-weight: bold; }
+table tr.period3M { background-color: #A4C1D7; }
+table tr.period3F { background-color: #E6C0C0; }
+table tr.period3O { background-color: #9D8E87; }
+table tr.period4M { background-color: #65AB31; }
+table tr.period4F { background-color: #EEDC00; }
+table tr.period4O { background-color: #AAAAb0; }
+table tr.period5M { background-color: #6C2463; }
+table tr.period5F { background-color: #EE7800; }
+table tr.period5O { background-color: #BDBACE; }
+table tr.period6M { background-color: #4496D3; }
+table tr.period6F { background-color: #EA618E; }
+table tr.period6O { background-color: #D4DCD3; }
+table tr.period0 { background-color: #FFFFFF; }
